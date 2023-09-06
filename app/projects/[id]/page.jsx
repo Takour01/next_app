@@ -1,5 +1,5 @@
 export async function generateStaticParams() {
-  const posts = [1, 2, 3];
+  const posts = ["1", "2", "3"];
   return posts.map((post) => ({
     id: post,
   }));
