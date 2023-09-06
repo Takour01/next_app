@@ -4,6 +4,7 @@ export const metaData = {
   title: "Takoria",
   description: "Discover & share AI Prompts",
 };
+import { Nav } from "@components";
 
 const RootLayout = ({ children }) => {
   return (
