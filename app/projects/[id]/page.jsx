@@ -1,3 +1,5 @@
+"use client";
+
 export async function generateStaticParams() {
   const posts = ["1", "2", "3"];
   return posts.map((post) => ({
